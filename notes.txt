@@ -1,0 +1,24 @@
+weaviate setup docker
+
+docker run -d \
+  -p 8080:8080 \
+  -e QUERY_DEFAULTS_LIMIT=25 \
+  -e AUTHENTICATION_ANONYMOUS_ACCESS_ENABLED=true \
+  -e PERSISTENCE_DATA_PATH="/var/lib/weaviate" \
+  -e DEFAULT_VECTORIZER_MODULE=none \
+  --name weaviate \
+  semitechnologies/weaviate:1.24.7
+
+monitoring : http://localhost:8080/v1/meta
+
+nebulaDB setup docker
+
+git clone https://github.com/vesoft-inc/nebula-docker-compose.git
+cd nebula-docker-compose
+docker-compose up -d
+
+Ports:
+
+Graphd: 9669
+
+Studio UI: http://localhost:7001

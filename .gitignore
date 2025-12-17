@@ -1,0 +1,85 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+
+# =========================
+# Virtual Environment
+# =========================
+venv/
+.env
+.env.local
+
+# =========================
+# Streamlit
+# =========================
+.streamlit/
+.streamlit/secrets.toml
+
+# =========================
+# OS / Editor
+# =========================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# =========================
+# Logs & Temp Files
+# =========================
+*.log
+*.tmp
+*.temp
+temp/
+tmp/
+
+# =========================
+# Uploaded Documents
+# (VERY IMPORTANT for your project)
+# =========================
+uploads/
+*.pdf
+*.docx
+*.xlsx
+
+# =========================
+# LangSmith / Traces
+# =========================
+.langsmith/
+
+# =========================
+# Docker
+# =========================
+docker-data/
+nebula-docker-compose/data/
+nebula-docker-compose/logs/
+
+nebula-docker-compose
+nebula-web-docker
+
+# =========================
+# Weaviate local data
+# =========================
+weaviate-data/
+
+# =========================
+# Ollama
+# =========================
+.ollama/
+
+# =========================
+# Jupyter / Experiments
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Windows-specific temp paths
+# =========================
+AppData/
