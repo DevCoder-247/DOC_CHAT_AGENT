@@ -1,16 +1,3 @@
-Perfect — I’ll convert this into a **clean, professional, GitHub-grade README.md** with:
-
-* Proper **Markdown hierarchy**
-* Clean **tables**
-* Clear **callouts / notes**
-* Code blocks formatted correctly
-* Professional tone (project / portfolio / enterprise-ready)
-* Easy scannability for reviewers
-
-Below is the **FINAL STYLED README.md**
-👉 **You can directly copy-paste this into GitHub**.
-
----
 
 # 🧠 Intelligent Document Chat Agent
 
