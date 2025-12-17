@@ -410,15 +410,5 @@ LANGCHAIN_TRACING_V2=false
 
 ---
 
-## 🔮 Future Enhancements
-
-* Graph-based reasoning paths
-* Advanced hybrid reranking
-* Streaming responses
-* Citation-aware answers
-* Full Docker Compose stack
-* Authentication & multi-user support
-
----
 
 
