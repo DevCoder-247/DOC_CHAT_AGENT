@@ -186,7 +186,7 @@ docker run -d --name nebula-studio -p 7001:7001 vesoft/nebula-graph-studio:night
 docker start nebula-studio
 ```
 
-#### Access UI
+#### Access UI (wait 1,2 mins)
 
 ```
 http://localhost:7001/welcome
